@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ГитХаб Ридер</string>
+    <string name="input_username">Введите имя пользователя, чтобы узнать больше:</string>
+    <string name="some_username">Имя пользователя ГитХаб</string>
+    <string name="btn_start">Расскажи мне больше!</string>
+    <string name="repos">Репозитории</string>
+    <string name="username_company">Пользователь, компания</string>
+    <string name="rep_name">Название репозитория</string>
+    <string name="def_followers"> фолловеры</string>
+    <string name="def_following"> читает</string>
+    <string name="facebook_app_id">1451710675134820</string>
+
+    <string name="enter_usrnm">Введите имя пользователя!</string>
+    <string name="no_internet">Отсутствует интернет соединение!</string>
+    <string name="downloading">Загрузка данных…</string>
+    <string name="wait">Пожалуйста, ждите…</string>
+    <string name="usr_not_found">Пользователь не найден, попробуйте еще раз!</string>
+
+    <string name="posted">Успех!</string>
+    <string name="posting_cancelled">Пост отменен</string>
+    <string name="posting_error">Ошибка при публикации на Facebook</string>
+    <string name="fllwrs">фолловеры</string>
+    <string name="fllwng">следит за</string>
+    <string name="interesting_github">Интересный аккаунт ГитХаб!</string>
+    <string name="useful_projects">Полезные проекты.</string>
+    <string name="data_saved">Данные сохранены в базу!</string>
+
+    <string name="language">Язык: </string>
+
+
+</resources>

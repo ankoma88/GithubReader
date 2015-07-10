@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GitHub Leser</string>
+    <string name="input_username">Benutzernamen eingeben, um mehr zu erfahren!</string>
+    <string name="some_username">GitHub Benutzername</string>
+    <string name="btn_start">Erzähl mir mehr!</string>
+    <string name="repos">Repositorien</string>
+    <string name="username_company">Benutzer, Unternehmen</string>
+    <string name="rep_name">Name des Repository</string>
+    <string name="def_followers"> Nachfolger</string>
+    <string name="def_following"> Folgt</string>
+    <string name="facebook_app_id">1451710675134820</string>
+
+    <string name="enter_usrnm">Bitte, GitHub Benutzernamen eingeben!</string>
+    <string name="no_internet">Kein Internetanschluss!</string>
+    <string name="downloading">Daten herunterladen…</string>
+    <string name="wait">Warten Sie, bitte…</string>
+    <string name="usr_not_found">Benutzer nicht gefunden, versuchen Sir noch einmal!</string>
+
+    <string name="posted">Erfolg!</string>
+    <string name="posting_cancelled">Abgebrochen</string>
+    <string name="posting_error">Fehler beim Posting auf Facebook</string>
+    <string name="fllwrs">Nachfolger</string>
+    <string name="fllwng">Folgt</string>
+    <string name="interesting_github">Interessante GitHub Account!</string>
+    <string name="useful_projects">Sinnvolle Projekte.</string>
+    <string name="data_saved">Angaben gespeichert</string>
+
+    <string name="language">Sprache: </string>
+
+
+</resources>

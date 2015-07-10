@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#D2C9C9">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/username_company"
+                android:text="@string/username_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                style="@style/TextStyle"/>
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:src="@drawable/default_avatar"
+                android:background="#D2C9C9"
+                />
+
+            <Button
+                android:id="@+id/btn_followers"
+                style="@style/ImgBtnStyle"
+                android:text="@string/def_followers"
+                android:layout_below="@+id/username_company"
+                android:layout_alignLeft="@+id/btn_browser"
+                android:layout_alignStart="@+id/btn_browser"/>
+
+            <ImageButton
+                android:id="@+id/btn_browser"
+                style="@style/ImgBtnStyle"
+                android:src="@drawable/globe"
+                android:layout_alignTop="@+id/btn_share"
+                android:layout_toLeftOf="@+id/username_company"
+                android:layout_toStartOf="@+id/username_company"/>
+
+            <Button
+                android:id="@+id/btn_following"
+                style="@style/ImgBtnStyle"
+                android:text="@string/def_following"
+                android:layout_below="@+id/username_company"
+                android:layout_alignLeft="@+id/btn_share"
+                android:layout_alignStart="@+id/btn_share"/>
+
+            <ImageButton
+                android:id="@+id/btn_share"
+                style="@style/ImgBtnStyle"
+                android:src="@drawable/share"
+                android:layout_below="@+id/btn_following"
+                android:layout_toRightOf="@+id/username_company"
+                android:layout_toEndOf="@+id/username_company"
+                android:layout_marginTop="33dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_save"
+                style="@style/ImgBtnStyle"
+                android:src="@drawable/floppy"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repos"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"/>
+
+    <FrameLayout android:id="@+id/fragmentcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1">
+
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </FrameLayout>
+
+</LinearLayout>

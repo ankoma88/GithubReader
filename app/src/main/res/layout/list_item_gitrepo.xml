@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_start"
+                android:padding="10dp">
+
+    <TextView
+        android:id="@+id/gitrepo_list_item_repoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/rep_name"
+        style="@style/BtnTextStyle"/>
+
+    <TextView
+        android:id="@+id/gitrepo_list_item_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gitrepo_list_item_repoName"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Language: Java"
+        style="@style/BtnTextStyleSmall"/>
+
+
+    <TextView
+        android:id="@+id/gitrepo_list_item_countForks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        style="@style/BtnTextStyle"
+        android:text="15"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageViewFork"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:src="@drawable/fork"
+        android:id="@+id/imageViewFork"
+        android:layout_alignTop="@+id/imageViewStar"
+        android:layout_toLeftOf="@+id/gitrepo_list_item_countStars"
+        android:layout_toStartOf="@+id/gitrepo_list_item_countStars"/>
+
+    <TextView
+        android:id="@+id/gitrepo_list_item_countStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        style="@style/BtnTextStyle"
+        android:text="31"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageViewStar"
+        android:layout_toStartOf="@+id/imageViewStar"/>
+
+    <ImageView
+        android:id="@+id/imageViewStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:src="@drawable/star"
+        android:layout_alignBottom="@+id/gitrepo_list_item_repoName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+
+</RelativeLayout>
+

@@ -23,7 +23,6 @@ public class RoundImage extends Drawable {
         mRectF = new RectF();
         mPaint = new Paint();
         mPaint.setAntiAlias(true);
-        mPaint.setDither(true);
         final BitmapShader shader = new BitmapShader(bitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
         mPaint.setShader(shader);
 

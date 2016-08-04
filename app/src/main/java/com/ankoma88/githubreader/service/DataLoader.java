@@ -72,10 +72,10 @@ public class DataLoader {
         gitUser.setAvatarUrl(jsonObject.get("avatar_url").getAsString());
 
         //Company is not always present
-        JsonPrimitive compJson = (JsonPrimitive) jsonObject.get("company");
-        if (compJson != null) {
-            gitUser.setCompany(compJson.getAsString());
-        } else gitUser.setCompany("no company");
+//        JsonPrimitive compJson = (JsonPrimitive) jsonObject.get("company");
+//        if (compJson != null) {
+//            gitUser.setCompany(compJson.getAsString());
+//        } else gitUser.setCompany("no company");
 
         return gitUser;
     }

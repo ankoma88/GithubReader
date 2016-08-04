@@ -94,15 +94,17 @@ public class DataActivity extends BaseFragmentActivity implements ReposFragment.
 
         //Setup title (username and company)
         mUsernameCompanyTv = (TextView) findViewById(R.id.username_company);
-        mUsernameCompanyTv.setText(mGitUser.getUsername() + ", " + mGitUser.getCompany());
+        String company = mGitUser.getCompany();
+        if (company == null) company = getString(R.string.freelance);
+        mUsernameCompanyTv.setText(mGitUser.getUsername() + ", " + company);
 
         //Setup followers
         mFollowersBtn = (Button) findViewById(R.id.btn_followers);
-        mFollowersBtn.setText(String.valueOf(mGitUser.getFollowers()) +" "+ getResources().getString(R.string.def_followers));
+        mFollowersBtn.setText(String.valueOf(mGitUser.getFollowers()) + " " + getResources().getString(R.string.def_followers));
 
         //Setup following
         mFollowingBtn = (Button) findViewById(R.id.btn_following);
-        mFollowingBtn.setText(String.valueOf(mGitUser.getFollowing()) +" "+ getResources().getString(R.string.def_following));
+        mFollowingBtn.setText(String.valueOf(mGitUser.getFollowing()) + " " + getResources().getString(R.string.def_following));
 
         //Setup open in browser button
         mBrowserBtn = (ImageButton) findViewById(R.id.btn_browser);

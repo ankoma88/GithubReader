@@ -6,8 +6,8 @@
     <string name="repos">Репозитории</string>
     <string name="username_company">Пользователь, компания</string>
     <string name="rep_name">Название репозитория</string>
-    <string name="def_followers"> фолловеры</string>
-    <string name="def_following"> читает</string>
+    <string name="def_followers"> следят</string>
+    <string name="def_following"> читают</string>
     <string name="facebook_app_id">1451710675134820</string>
 
     <string name="enter_usrnm">Введите имя пользователя!</string>
@@ -26,6 +26,7 @@
     <string name="data_saved">Данные сохранены в базу!</string>
 
     <string name="language">Язык: </string>
+    <string name="freelance">фриланс</string>
 
 
 </resources>
